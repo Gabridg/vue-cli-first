@@ -1,18 +1,21 @@
 <template>
   <div id="app">
+    <Header></Header>
+    <Main></Main>
   </div>
 </template>
 
 <script>
-import HelloWorldVue from './components/HelloWorld.vue';
+import TitleComponents from './components/Header.vue';
+import HeroComponents from './components/Main.vue';
 
 
 
 export default {
   name: 'App',
   components: {
-    Header: Title,
-    Main: HelloWorldVue,
+    Header: TitleComponents,
+    Main: HeroComponents,
   }
 }
 </script>

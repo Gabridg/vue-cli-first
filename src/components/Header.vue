@@ -5,10 +5,8 @@
 </template>
 
 <script>
-import { title } from 'process';
-
 export default {
-    name: "Title",
+    name: "TitleComponents",
 }
 </script>
 
@@ -22,5 +20,6 @@ export default {
     color: darkblue;
     font-weight: bold;
     text-shadow: 5px #000;
+    text-align: center;
 }
 </style>
