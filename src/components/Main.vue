@@ -10,12 +10,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .jumbotron {
     background-image: url('../assets/jumbotron-prova.jpg');
     background-position: center;
     background-size: contain;
     height: 400px;
+    margin-top: 50px;
 }
 
 .jumbotron h4 {
